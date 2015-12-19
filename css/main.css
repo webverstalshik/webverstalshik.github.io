@@ -1,0 +1,249 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+::selection {
+background: rgba(0,0,0,0.3); /* Safari */
+}
+::-moz-selection {
+background: rgba(0,0,0,0.3); /* Firefox */
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+body {
+	font-family: "OpenSansLight",sans-serif;
+	font-size: 16px;
+	color:#363007;
+}
+ul,li{
+	padding: 0;margin: 0;
+}
+
+ul{
+	margin-left: 20px;
+}
+
+p{
+	display: block;	
+	font-size: 1.4em;
+}
+b{
+	font-family: "OpenSansRegular",sans-serif;
+	display: block;	
+	font-weight: 500;	
+	font-size: 1.8em;
+	line-height: 1.5em;	
+}
+a{
+	color:#363007;
+}
+
+h1{
+  display: none;	
+	font-weight: bold;
+	padding-top: 150px;
+	text-transform: uppercase;
+	text-align: center;
+
+}
+
+.h2{
+	color:#363007;
+	font-size: 1.8em;
+ 	font-weight: 600;
+	padding: 50px 0;
+	text-align: center;
+}
+
+
+.fixed-photo{
+	position: fixed;	
+	z-index: -1;
+	height: 100vh;width: 100%;
+	background: url(../img/bg-photo.jpg); 
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+.transparent300{
+ height: 500px;
+ width: 100%;
+ background: transparent;
+}
+
+
+
+.pt20{padding-top: 20px;}
+.pt50 {padding-top: 50px;}
+.bd{border: 1px red solid;}
+
+/*****Top menu fixed******/
+.top-menu-fixed{ 
+ 	min-height: 55px;	
+}
+.top-menu-fixed ul{
+ 	list-style: none;
+
+ }
+ .top-menu-fixed ul li{
+  float: right;
+ 	display: inline-block;
+ }
+ .top-menu-fixed ul li:first-child{
+ 	float: left;
+ }
+ .top-menu-fixed a{  	
+ 	display: block;
+ 	padding: 10px 20px;
+ 	font-family: "OpenSansLight",sans-serif;
+ 	font-size: 1.4em;
+ 	font-weight: bold;
+ 	color:#000;
+ 	text-shadow:1px 1px 2px rgba(255,255,255,0.5);
+}
+.top-menu-fixed a:hover{
+ 	text-decoration: none;
+ 	font-weight: lighter; 	
+} 	
+a.header__avtor{	
+ /*font-family: "HaginCapsMedium",sans-serif; 	*/
+ 	margin-top: -5px;
+ 	font-size: 1.8em;
+ 	font-weight: 600;
+
+ }
+
+
+/***********Header*****************/
+.btn-to-up{
+	display: block;
+	width: 100px;height: 100px;
+	position: fixed;
+	bottom: 10px;right: 10px;
+	background-image: url(..//img/down-head-100-black.png);
+	background-repeat: no-repeat;
+	opacity: 0.6;
+	transition:all 1s;
+}
+.btn-to-up:hover{
+	transition:all 1s;
+	transform:scale(1.05);
+}
+ 
+ .header,
+ .block-1,
+ .block-2,
+ .block-3,
+ .block-4,
+ .footer{ 
+ 	padding: 0 0 50px 0;
+ 	min-height: 500px	;
+ 	background:url(../img/ricepaper.png);
+ }
+
+.header{
+	padding: 20px 0 70px 0;
+}
+ .header b{
+ 	padding-bottom: 60px;
+ }	
+
+.header span{
+	font-weight: bold;
+}
+
+/**********Block 1 About me**********/
+.block-1 {
+	padding-bottom: 0;
+}
+
+.block-1 b{
+	color:#363007;
+	padding-top: 30px;
+	padding-bottom: 30px;
+} 
+
+
+/**********Block 2  Skills**********/
+.block-2 {}
+.block-2 .h2{}
+
+
+/**********Block 3 portfolio **********/
+
+.block-3 {}
+.block-3 .h2 {}
+
+.block-3 img{
+	width: 100%;
+	border: 3px transparent solid;
+	outline:1px rgba(0,0,0,0.15) solid;
+	transition:all 0.5s;
+}
+
+.block-3 p{
+	color: #000;
+	font-size: 1.2em;	
+}
+.block-3 a:hover{
+	text-decoration: none;
+	font-weight: bold;
+}
+.block-3 .pt{
+	padding-top: 60px;
+}
+.block-3 img:hover{
+	transition:all 0.5s;
+	border: 3px rgba(0,0,0,0.2) solid;
+}
+/********block-4 kontakti*******/
+ .block-4 span{
+ 	font-weight: bold;
+ }
+ .block-4 p:last-of-type{
+ 	padding-top: 40px;
+ }
+  .block-4 a{
+  	color:#000;
+  	font-weight: bold;
+  }
+  .block-4 a:hover{
+  	font-weight: lighter;
+  	text-decoration: none;
+  }
+ /**********footer**************/
+ .footer{
+ 	min-height: 100px;
+ 	background: grey;}
+ .footer p{
+ 	padding-top: 50px;
+ 	text-align: center;
+ }
+  .footer a{
+  	color:#000;
+  	font-weight: bold;
+  }
+  .footer a:hover{
+  	text-decoration: none;
+  	font-weight: lighter;
+  }
