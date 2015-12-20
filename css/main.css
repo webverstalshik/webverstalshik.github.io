@@ -100,6 +100,7 @@ h1{
 /*****Top menu fixed******/
 .top-menu-fixed{ 
  	min-height: 55px;	
+ 	background:url(../img/ricepaper.png);
 }
 .top-menu-fixed ul{
  	list-style: none;
@@ -120,10 +121,12 @@ h1{
  	font-weight: bold;
  	color:#000;
  	text-shadow:1px 1px 2px rgba(255,255,255,0.5);
+ 	transition:all 1s;
 }
 .top-menu-fixed a:hover{
  	text-decoration: none;
- 	font-weight: lighter; 	
+ 	color:#898989;
+ 	transition:all 1s;
 } 	
 a.header__avtor{	
  /*font-family: "HaginCapsMedium",sans-serif; 	*/
@@ -147,6 +150,7 @@ a.header__avtor{
 }
 .btn-to-up:hover{
 	transition:all 1s;
+		color:#898989;
 	transform:scale(1.05);
 }
  
@@ -192,7 +196,7 @@ a.header__avtor{
 /**********Block 3 portfolio **********/
 
 .block-3 {}
-.block-3 .h2 {}
+.block-3 .h2 {padding-top: 0;padding-bottom: 70px;}
 
 .block-3 img{
 	width: 100%;
@@ -205,9 +209,8 @@ a.header__avtor{
 	color: #000;
 	font-size: 1.2em;	
 }
-.block-3 a:hover{
-	text-decoration: none;
-	font-weight: bold;
+.block-3 a:hover{	
+	color:#898989; 	
 }
 .block-3 .pt{
 	padding-top: 60px;
@@ -228,8 +231,9 @@ a.header__avtor{
   	font-weight: bold;
   }
   .block-4 a:hover{
-  	font-weight: lighter;
-  	text-decoration: none;
+    text-decoration: none;
+ 		color:#898989;
+ 	transition:all 1s;
   }
  /**********footer**************/
  .footer{
@@ -245,5 +249,6 @@ a.header__avtor{
   }
   .footer a:hover{
   	text-decoration: none;
-  	font-weight: lighter;
+  		color:pink;
+  	transition:all 1s;
   }
