@@ -1,0 +1,412 @@
+body{
+	background:#282828;
+	font-family: tahoma;
+	
+}
+#site_wrapper{
+	width: 1200px;
+	margin: 0 auto;
+	background:#fff;
+}
+/*SECTION 1 CSS*/
+#s1{
+	height: 190px;	
+	position: relative;
+}
+
+.logo_s1{
+	width: 380px;
+	height: 184px;
+	margin-left: 50px;
+	padding-top: 7px;
+	}
+
+.your_compamy_s1{
+	position: absolute;
+	top:25px;left: 357px;
+	line-height: 28px;
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+	color: #244956;
+}
+.your_compamy_s1>span{font-size: 30px;}
+
+.salon_s1{
+	position: absolute;
+	top:95px;left: 353px;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: left;
+	color:#9f8c61;
+
+}
+.telefon_s1{	
+	position: absolute;
+	top:30px;left: 725px;font-size: 24px;
+	font-family: arial;
+	font-weight: bold;
+	position: absolute;	
+	color: #244956;
+}
+.zakazat_s1{
+	display: block;
+	position: absolute;
+	top:26px;left: 915px;
+	width: 228px;height: 35px;
+	text-align: center;
+	line-height: 36px;
+	font-family: arial;
+	font-weight: bold;
+	font-size: 20px;
+	color: #fff;
+	text-decoration: none;
+	background: url(img/call.png) no-repeat;
+}
+.zakazat_s1:hover{
+	background: url(img/call2.png) no-repeat;
+}
+.adres_s1{
+	position: absolute;
+	bottom:30px;right: 58px;
+	width: 400px;height: 75px;
+	text-align: right;
+    font-family: arial;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 22px;
+	color: #244956;
+	}
+/*SECTION 2 CSS*/
+#s2{
+	position: relative;
+	height: 473px;
+	background: url(img/fon_s2.png) repeat-x;
+	}
+
+#s2 ul li{
+	list-style-image: url(img/galka.png);
+	color: #244956;
+	font-size: 18px;
+	font-weight: normal;
+}
+.preim5_s2{
+	position: absolute;
+	top:25px;left: 90px;
+	line-height: 30px;
+	width: 550px;height: 150px;
+}
+
+
+.skidka_txt_s2{
+	width: 390px;
+	height: 197px;
+    position: absolute;
+	bottom :50px;left: 107px;
+	color: #fff;
+	font-size:19px;
+    border:2px solid #c1d1d7;
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.5); 
+}
+.skidka_txt_s2>img{padding-left:14px;padding-top: 32px;}
+.skid1_s2{padding: 15px 0 0 15px;}
+.skid2_s2{padding: 20px 0 0 15px;}
+
+.akcia10{
+	position: absolute;
+	top :240px;left: 430px;
+	width: 235px;height: 165px;
+	background: url(img/skidka.png) no-repeat;
+}
+
+
+
+.formaa{
+	position: absolute;
+	left: 720px;top:210px;
+	width: 400px;height: 220px;
+	font-family: arial;
+	font-style: italic;
+	font-size: 18px;
+	color: #244956;
+
+}
+
+.formaa span{
+	
+	font-family: tahoma;
+	font-style: normal;
+	font-size: 24px;
+	font-weight: bold;
+	color: #244956;
+}
+
+.formaa input[type="text"] {
+	font-size: 18px;
+	color: #000;
+	width: 209px;height: 30px;
+	margin: 10px 0 0 110px;
+	border: 0px;
+	outline: none;
+	
+	
+}
+
+.formaa input[type="submit"] {
+	margin-top: 20px;
+	background: url(img/zayavka.png);
+
+	display: block;
+	line-height: 0px;
+	text-align: center;
+	border-radius: 10px;
+	border:0;
+	outline: none;
+	font-weight: bold;
+	font-size: 18px;
+	color: #000;
+	font-family: tahoma;
+	width: 206px;height: 39px;
+	margin-left: 60px;	
+	}	
+
+.formaa input[type="submit"]:hover {background: url(img/zayavka2.png);}
+
+.fm_name{position: absolute;top:93px;font-style: normal;}
+
+.fm_tf{position: absolute;top:133px;font-style: normal;}
+
+#f{margin-top: 7px;}
+
+/*SECTION 3 CSS*/
+#s3{
+	position: relative;
+	height: 166px;
+	background: url(img/fon_3s.png) repeat-x;
+}
+.cell_s3{
+	float: left;
+	text-align: center;
+	width:20%;height: 166px;
+	margin-top: 0px;
+
+}
+.low_s3{
+	position: absolute;
+	bottom: 0px;width: 20%;
+	text-align: center;
+	margin-bottom: 5px;
+	
+}
+
+.clr{clear: both;}
+
+/*SECTION 4 CSS*/
+#s4{
+	
+	background: #fff;
+	font-weight: normal;
+	font-size: 14px;
+}
+
+.kont1_s4,.kont2_s4,.kont3_s4,.kont4_s4{
+	float: left;
+	width: 725px;height: 380px;
+	margin-left: 90px; margin-top: 22px;
+	border: #a2b7bc solid 1px;
+	border-radius: 5px;
+	overflow: hidden;
+}
+
+#zagolovok_s4,#zagolovok2_s4{
+	font-family: tahoma;
+	font-weight: normal;
+	font-size: 18px;
+	text-align: center;
+}
+#s4 .kont1_s4>p,.kont2_s4>p{margin-left: 18px;}
+
+.kont2_s4{
+	margin-left: 30px;
+	width: 270px;height: 380px;
+
+}
+.kont3_s4{
+	height: 375px;
+	margin-top: 28px;
+
+}
+.pic_s4{
+	float: left;
+	height: 234px;width: 198px;
+	margin-left: 40px; margin-top: 40px;
+	border: #c8e0e7 solid 1px;
+	overflow: hidden;
+	margin-bottom: 45px;
+}
+
+.kont3_txt{   
+	width: 380px;height: 235px;
+	float: left;
+	margin-top: 38px;
+	margin-left: 45px;
+	margin-right: 45px;
+	font-size: 16px;
+	
+}
+.kont3_txt>p{
+	overflow: hidden;
+	display: block;
+	width: 375px;height: 115px;	
+	}
+
+.kont3_txt>b{
+	display: block;
+	font-size: 18px;	
+	text-align: center;
+	margin-bottom: 20px;
+	}
+.zayavka_kont3_s4{	
+	width: 265px;height: 50px;
+	border: 1px #f49d1a solid;
+	border-radius: 30px;
+	background: #f8c023;
+	background: linear-gradient(to top, #f28f16, #fad729);
+	text-align: center;
+	line-height: 50px;
+	margin-left: 65px;
+	margin-top: -10px;
+		
+}
+.zayavka_kont3_s4 a, .zayavka_s6 a{text-decoration: none;color: #000;font-size: 20px;font-weight: bold;}
+.zayavka_kont3_s4:hover, .zayavka_s6:hover{background: linear-gradient(to bottom, #f28f16, #fad729);}
+
+.btm_s4{
+	float: left;
+	width: 105px;height: 40px;
+	margin:5px 6px;
+	text-align: center;
+	line-height: 40px;
+	font-size: 18px;
+	border: #e4ebed 1px solid;
+	border-radius: 7px;
+	box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.5); 
+}
+.btm_s4:hover{box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.5);}
+
+.kont3_s4 #navig{
+	margin-bottom: 0px;
+	height: 55px;
+	background: #bdced4;
+	border-radius: 0px 0px 5px 5px; 
+}
+
+.kont4_s4{
+	position: relative;
+	width: 270px;height: 215px;
+	margin-left: 30px;
+
+}
+.kont4_s4 b{
+	display: block;
+	text-align: center;
+	margin: 7px 0 0 7px;
+	font-size: 18px;
+
+}
+.formaa2 input[type="text"] {
+	font-size: 18px;
+	color: #000;
+	width: 140px;height: 26px;
+	margin: 5px 0 7px 110px;
+	border:1px #c1cfd2 solid;
+	outline: none;
+	
+	
+}
+.formaa2 input[type="submit"] {
+	margin-top: 20px;
+	background: url(img/zayavka.png);
+
+	display: block;
+	line-height: 0px;
+	text-align: center;
+	border-radius: 10px;
+	border:0;
+	outline: none;
+	font-weight: bold;
+	font-size: 18px;
+	color: #000;
+	font-family: tahoma;
+	width: 206px;height: 38px;
+	margin-left: 32px;	
+	}	
+
+	.formaa2 input[type="submit"]:hover {background: url(img/zayavka2.png);}
+
+.s4_nm,.s4_tf{color: #244956;position: absolute;top: 65px;left: 10px;font-size: 16px;font-family: arial;font-weight: bold;}
+.s4_tf{top: 108px;left: 10px;}
+
+.givegiftpic img{margin-left: 35px;}
+
+.devider_s4{
+	display: inline-block;
+	background: url(img/devide_line.png) no-repeat;
+	width: 359px;height: 27px;
+	margin-left: ;margin-top: ;
+}
+#devide_line{margin-left: 88px;margin-top: -12px;}
+
+.blue_s4,.black_s4{color: #31aeaf;font-weight: normal;font-family: tahoma;font-size: 22px;}
+.black_s4{color: #000;}
+
+/*Secton 5 css*/
+#s5{height: 435px;}
+.kont_s5{
+	float: left;
+	background: #f4f4f4;
+	width: 295px;
+	height: 390px;
+	margin: 10px 33px 30px 0px;
+	border: 1px solid #d9d9d9;
+	border-radius: 7px;
+}
+.kont_s5 img{margin: 25px 0 0 45px;}
+
+.kont_s5>p{
+
+     display: block;
+     overflow: hidden;
+     font-size: 14px;
+     height: 102px;
+	 margin: 15px 13px 0px 13px;}
+
+	 .kont_s5>b{
+	 	display: block;
+	 	margin-left: 13px;margin-top: 9px;
+	 }
+
+
+	  /* Section 6*/
+	  #s6{background: url(img/fon_5s.png)repeat-x;height: 175px;position: relative;	  }
+	  #s6 img{margin-top: 68px;margin-left: 50px;}
+	  .zayavka_s6{
+	  	position: absolute;
+        top:62px; right: 73px;
+	  	width: 265px;height: 50px;
+	border: 1px #f49d1a solid;
+	border-radius: 30px;
+	background: #f8c023;
+	background: linear-gradient(to top, #f28f16, #fad729);
+	text-align: center;
+	line-height: 50px;	
+	  }
+/*section 7*/
+#s7{
+	height: 180px;color: #244956;
+}
+#s7 b{float: left;margin: 60px 0px 0px 42px;display: block;font-size: 30px;font-weight: bold;}
+#ads7{float: right;text-align: right;margin: 40px 20px 25px 0px;}
+#tf_s7{font-family: arial;font-size: 24px;font-weight: bold;margin:0px 10px 20px 0;}
+.adres_s7{font-family: arial;font-size: 18px;font-weight: bold;}

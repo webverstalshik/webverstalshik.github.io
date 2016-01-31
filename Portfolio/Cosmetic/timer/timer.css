@@ -1,0 +1,48 @@
+/* Contdonwn */
+
+
+.timer{
+    height: 120px;width: 500px;
+    position: absolute;
+    top:38px;left: 718px;
+ }
+
+#CDT {
+    font-size: 40px;
+    color: #000;
+    font-weight: bold;
+}
+/*обвертка ячейки*/
+#CDT .number-wrapper {
+    margin: 7px;  /* расстояние между ячейками*/
+   position: relative;
+}
+/*сама ячейка*/
+#CDT .number {
+    display: inline-block;
+    background-image:url(../img/timer_check.png) ;
+    height: 118px;
+    width: 108px;
+    line-height: 90px;
+    text-align: center;
+   }
+    /*разделительная полоса*/   
+#CDT .line {
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    top: 52%;
+    left: 0;   
+  }
+ 
+ /* надписи минуты секунды */     
+.caption {
+   font-size: 12px;
+   position: absolute;
+   bottom: -20px;
+   left: 0;
+   text-align: center;
+   width: 100%;
+   color: #777;
+}
+    
