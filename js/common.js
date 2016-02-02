@@ -30,4 +30,8 @@ $(document).ready(function(){
   return false;
 });
 
+ $('i.fa-skype').on('click', function(){
+  $('.skype').fadeToggle('slow');
+ });
+
 });

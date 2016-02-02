@@ -18,6 +18,9 @@
  .avtor{		
   	padding-top: 1em;
  }
+  .header b:after{
+  	display: none;
+  }
 }
 
 /* Extra Small Devices, Phones */
