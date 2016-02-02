@@ -10,6 +10,13 @@ background: rgba(0,0,0,0.3); /* Firefox */
 	display: block;
 	margin-bottom: 2em;
 }
+.img-responsive-2{
+	max-width: 160px;
+	width: 100%;
+	height: auto;
+	display: block;
+	margin: 0 auto 2em;
+}
 body {
 	font-family: "OpenSansLight",sans-serif;
 	font-size: 16px;
@@ -52,9 +59,10 @@ h1{
 }
 
 .h2{
+	font-family:"Nautilus", sans-serif;
 	color:#363007;
 	font-size: 1.8em;
- 	font-weight: 600;
+ 	font-weight: 400;
 	padding: 1em 0;
 	text-align: center;
 }
@@ -84,9 +92,9 @@ h1{
  	background:url(../img/ricepaper.png);
  }
  .avtor{	
+ 	font-family:"Nautilus", sans-serif;
 	display: inline-block;
-    font-family: Arial ,sans-serif; 	
- 	font-size: 1.8em;
+   	font-size: 1.8em;
     padding-top: 0.4em;
   font-weight: normal;
   color:#2d4161;
@@ -224,6 +232,9 @@ h1{
  	color: #57A1FD;
 	opacity: .75;
  }
+ .header p{ 
+ 	padding-bottom: 2em; 	
+ }
  .header b{
  	position: relative;
  	padding-bottom: 1em;
@@ -276,22 +287,22 @@ h1{
 	border: 3px transparent solid;
 	outline:1px rgba(0,0,0,0.15) solid;
 	transition:all 0.5s;
+	margin-bottom: 4em;
 }
 .block-3 img:hover{
 	transition:all 0.5s;
 	border: 3px rgba(0,0,0,0.2) solid;
 }
-.block-3 span{
-	display:inline-block;
-	margin-bottom: 1em;
-}
+
 .block-3 i{
 	margin-right: 0.5em;
+	margin-bottom: 3em;
 }
 .block-3 span{
+	display:inline-block;	
 	padding: 5px 10px;
-	background: #909090;
-	
+	margin-bottom: 0.3em;
+	background: #d7d7d7;
 	text-transform: uppercase;
 	text-align: center;
 	border-radius: 4px;
@@ -303,8 +314,8 @@ h1{
 }
 .block-4 li{
 	display: inline-block;
-	font-size: 5em;
-	padding: 0 0.3em;
+	font-size: 4em;
+	padding: 0 0.2em 0.2em;
 	color:grey;
 }
 .block-4 li a{
@@ -316,6 +327,7 @@ h1{
 
 .block-5 {
 	text-align: center;
+	padding: 3em 0;
 }
 .block-5 {
 	color:#363007;

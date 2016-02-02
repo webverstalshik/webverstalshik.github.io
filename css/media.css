@@ -21,11 +21,19 @@
   .header b:after{
   	display: none;
   }
+  .block-3 img{	
+	margin-bottom: 1em;
+}
+.block-5 {	
+	padding: 1.5em 0;
+}
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-
+.block-4 li{
+	font-size: 3em;	
+}
 }
 
 /* Custom, iPhone Retina */
